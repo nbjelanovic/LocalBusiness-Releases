@@ -3,12 +3,12 @@
 ## Download
 
 Use the official
-[0.3.0-preview.69 release](https://github.com/nbjelanovic/LocalBusiness-Releases/releases/tag/v0.3.0-preview.69-public-trial).
+[0.3.0-preview.70 release](https://github.com/nbjelanovic/LocalBusiness-Releases/releases/tag/v0.3.0-preview.70-public-trial).
 
 The release contains:
 
-- `LocalBusiness-0.3.0-preview.69-win-x64-Setup.exe`
-- `LocalBusiness-0.3.0-preview.69-win-x64-Setup.exe.sha256.txt`
+- `LocalBusiness-0.3.0-preview.70-win-x64-Setup.exe`
+- `LocalBusiness-0.3.0-preview.70-win-x64-Setup.exe.sha256.txt`
 
 No separate .NET installation is required.
 
@@ -16,12 +16,12 @@ No separate .NET installation is required.
 
 Expected SHA-256:
 
-`2F366D8B9DFBF74AD4E8C8F40107A5F02B893F0D7BB8C2389B9B4097D5753123`
+`2A9597E37283544E173807760DEE1F0CE35629574912810139478BAA1F24FF4C`
 
 In PowerShell, run:
 
 ```powershell
-(Get-FileHash .\LocalBusiness-0.3.0-preview.69-win-x64-Setup.exe -Algorithm SHA256).Hash
+(Get-FileHash .\LocalBusiness-0.3.0-preview.70-win-x64-Setup.exe -Algorithm SHA256).Hash
 ```
 
 The result must exactly match the expected value. Do not run a package whose

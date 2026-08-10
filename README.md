@@ -10,7 +10,7 @@ businesses.
 
 ## Start here
 
-- **[Download the seven-day public trial](https://github.com/nbjelanovic/LocalBusiness-Releases/releases/tag/v0.3.0-preview.69-public-trial)**
+- **[Download the seven-day public trial](https://github.com/nbjelanovic/LocalBusiness-Releases/releases/tag/v0.3.0-preview.70-public-trial)**
 - **[Public Trial Guide](PUBLIC-TRIAL-GUIDE.md)** — installation, checksum, trial, upgrade, expiration, and uninstall guidance
 - **[Project Status](PROJECT-STATUS.md)** — current capabilities and remaining production gates
 - **[Public Changelog](CHANGELOG.md)** — public-facing release history
@@ -18,7 +18,7 @@ businesses.
 
 ## Current seven-day public trial
 
-Version 0.3.0-preview.69 is an unsigned, self-contained Windows x64 installer.
+Version 0.3.0-preview.70 is an unsigned, self-contained Windows x64 installer.
 No separate .NET installation is required.
 
 - The seven continuous days begin when this exact version launches for the
@@ -42,7 +42,7 @@ preview is not digitally signed.
 
 Installer SHA-256:
 
-`2F366D8B9DFBF74AD4E8C8F40107A5F02B893F0D7BB8C2389B9B4097D5753123`
+`2A9597E37283544E173807760DEE1F0CE35629574912810139478BAA1F24FF4C`
 
 Download only from this repository's
 [Releases](https://github.com/nbjelanovic/LocalBusiness-Releases/releases)

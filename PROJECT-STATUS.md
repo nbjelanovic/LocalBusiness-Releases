@@ -6,7 +6,7 @@ production-readiness certification.
 
 ## Current public preview
 
-Version `0.3.0-preview.69` is available as an unsigned, self-contained Windows
+Version `0.3.0-preview.70` is available as an unsigned, self-contained Windows
 x64 seven-day public trial.
 
 The preview includes:
@@ -23,11 +23,15 @@ The preview includes:
   diagnostics
 - Twelve interface languages
 
-The exact preview.68-to-preview.69 lifecycle passed install, forced
+The exact preview.69-to-preview.70 lifecycle passed install, forced
 interruption rollback, `PublicTrial` identity verification, application launch,
 protected trial-state creation, uninstall, and business-data preservation. The
 full Release build completed with zero warnings and errors; localization,
 architecture, functional, and Windows trial checks passed.
+
+An isolated real upgrade also passed first-launch disclosure and dashboard
+visual review, confirmed a fresh seven-day period for preview.70, and verified
+that the full product name and readable release version no longer clip.
 
 ## Trial boundary
 
@@ -46,9 +50,6 @@ architecture, functional, and Windows trial checks passed.
 - The preview is not approved for production business records or regulated
   workflows.
 - Independent clean-machine and real-business acceptance are still required.
-- Interactive visual acceptance of the trial screens remains pending because
-  the release workstation's UI-automation runtime was unavailable; installed
-  process launch and protected trial-state creation passed.
 - Cloud synchronization, centralized multi-computer operation, Active
   Directory authentication, and external service integrations are future
   capabilities rather than current production claims.
