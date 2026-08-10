@@ -1,18 +1,58 @@
-# Local Business Platform — Public Information
+# Local Business Platform — Public Releases
 
-This repository is the public information and future release location for
+This repository is the official public information and download location for
 **Local Business Platform**, a local-first Windows application for small
 businesses.
 
-> **Pre-release status:** The application is under active development. It is
-> not yet approved for production business use, and no public download has
-> been published.
+> **Pre-release status:** The application is under active development and is
+> not approved for production business use. Use fictional or safely copied test
+> data and keep an independent backup.
+
+## Start here
+
+- **[Download the seven-day public trial](https://github.com/nbjelanovic/LocalBusiness-Releases/releases/tag/v0.3.0-preview.69-public-trial)**
+- **[Public Trial Guide](PUBLIC-TRIAL-GUIDE.md)** — installation, checksum, trial, upgrade, expiration, and uninstall guidance
+- **[Project Status](PROJECT-STATUS.md)** — current capabilities and remaining production gates
+- **[Public Changelog](CHANGELOG.md)** — public-facing release history
+- **[Testing Partners](TESTING-PARTNERS.md)** — safe feedback boundaries
+
+## Current seven-day public trial
+
+Version 0.3.0-preview.69 is an unsigned, self-contained Windows x64 installer.
+No separate .NET installation is required.
+
+- The seven continuous days begin when this exact version launches for the
+  first time.
+- The application provides full feature access during the active trial.
+- Installing a newer application version starts a new seven-day trial for that
+  newer version.
+- Repairing, reinstalling, uninstalling and reinstalling, or returning to this
+  same version does not reset this version's trial.
+- Trial history and business data remain preserved through upgrade and
+  uninstall.
+- After expiration, normal application workflows are unavailable, but a
+  signed-in authorized user can still create a verified backup or open-data
+  export.
+- Nothing is uploaded automatically.
+
+Windows may show an unknown-publisher or protection warning because this
+preview is not digitally signed.
+
+### Verify the download
+
+Installer SHA-256:
+
+`2F366D8B9DFBF74AD4E8C8F40107A5F02B893F0D7BB8C2389B9B4097D5753123`
+
+Download only from this repository's
+[Releases](https://github.com/nbjelanovic/LocalBusiness-Releases/releases)
+page and compare the installer to its published `.sha256.txt` sidecar.
 
 ## What the application is for
 
-Local Business Platform brings common daily business workflows into one
-modular desktop application. A business can begin with only the modules it
-needs and enable additional modules later without deleting existing records.
+Local Business Platform brings common daily workflows into one modular desktop
+application. A business can begin with only the modules it needs and enable
+additional modules later without deleting existing records.
 
 Current areas include:
 
@@ -46,42 +86,23 @@ services, and other small-business types.
 
 ## Languages
 
-The application currently includes English, Chinese, Czech, French, German,
-Hungarian, Italian, Romanian, Russian, Serbian (Latin), Spanish, and Ukrainian
-interfaces. Localization remains part of ongoing preview validation.
-
-## Current public status
-
-- **Development version:** 0.3.0-preview.68
-- **Platform:** Windows x64, .NET 10 desktop application
-- **Distribution:** No public binary is currently available
-- **Source code:** Private and proprietary
-- **Production approval:** Not yet granted
-
-See [Project Status](PROJECT-STATUS.md) for the current public readiness
-summary and [Public Changelog](CHANGELOG.md) for public-facing milestones.
-
-## Testing partners
-
-Small-business owners and operators who are willing to test realistic
-workflows with fictional or copied test data can read
-[Testing Partners](TESTING-PARTNERS.md). Do not post customer information,
-credentials, payment data, employee records, or other sensitive business data
-in this repository.
+The application includes English, Chinese, Czech, French, German, Hungarian,
+Italian, Romanian, Russian, Serbian (Latin), Spanish, and Ukrainian interfaces.
+Localization remains part of ongoing preview validation.
 
 ## Privacy and safety
 
-The current design is local-first and does not require a cloud service for its
-core records. Any future public preview must be treated as test software. Use
-fictional or safely copied data, keep independent backups, and review every
-export or support file before sharing it.
+Use fictional records or a separately copied and sanitized dataset. Do not
+post customer information, employee records, credentials, payment data,
+databases, backups, reports, or sensitive screenshots in public GitHub pages.
+Review every export before sharing it.
 
 For security reporting guidance, see [Security](SECURITY.md).
 
 ## Source code and ownership
 
-This is an **information and future binary-release repository only**. It does
-not contain application source code, the private development history, internal
+This is an **information and binary-release repository only**. It does not
+contain application source code, private development history, internal
 architecture documents, private test data, signing material, or the build
 system.
 
